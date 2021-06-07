@@ -7,4 +7,6 @@
   <view class="chart-without-img" wx:for="{{chartsWithoutImg}}" wx:for-item="chart" wx:key="id">
     <button bindtap="open" data-chart="{{chart}}">{{chart.name}}</button>
   </view>
+
+<view>  自定义 </view>
 </view>
